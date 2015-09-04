@@ -56,7 +56,8 @@ nav.navbar.navbar-inverse {
   height: 100vh;
   width: 100vw;
   text-align: center;
-  padding-top: 30vh; }
+  padding-top: 30vh; 
+  padding-bottom: 20vh;}
   #main .main-header {
     font-weight: 400;
     font-size: 10em;
@@ -76,36 +77,10 @@ nav.navbar.navbar-inverse {
   #main .glyphicon {
     font-size: 1.75em; }
 
-#faq {
-  text-align: center;
-  padding: 0 0 40vh 0; }
-  #faq .content {
-    max-width: 1350px;
-    margin: auto;
-    padding: 0 15vw;
-    color: #f2f6f9;
-    font-size: 1.25em; }
-  #faq .faq-item {
-    padding: 15px;
-  }
-  #faq .question {
-    text-align: left;
-    font-weight: bold;
-    color: #5083BF;
-    font-size: 1em;
-  }
-  #faq .answer {
-    font-weight: normal;
-    text-align: left;
-    color: rgba(242, 246, 249, 0.6);
-    font-size: .75em;
-  }
-  #faq a {
-    font-weight: bold;
-  }
 
 #explore {
-  padding: 40vh 0; }
+  padding-top: 10vh;
+  padding-bottom: 20vh; }
   #explore .title {
     margin-bottom: 10px;
   }
@@ -118,6 +93,7 @@ nav.navbar.navbar-inverse {
     height: 400px;
     padding: 15px 0px;
     background: url("../images/led_light_table_resize.jpg") no-repeat;
+    background-size: 100%;
     overflow: hidden;
     position: relative;
     color: white;}
@@ -153,6 +129,35 @@ nav.navbar.navbar-inverse {
         padding: 20px 0px;
         max-width:100%;
       }
+      
+#faq {
+  text-align: center;
+  padding-top: 10vh;
+  padding-bottom: 20vh; }
+  #faq .content {
+    max-width: 1350px;
+    margin: auto;
+    padding: 0 15vw;
+    color: #f2f6f9;
+    font-size: 1.25em; }
+  #faq .faq-item {
+    padding: 15px;
+  }
+  #faq .question {
+    text-align: left;
+    font-weight: bold;
+    color: #5083BF;
+    font-size: 1em;
+  }
+  #faq .answer {
+    font-weight: normal;
+    text-align: left;
+    color: rgba(242, 246, 249, 0.6);
+    font-size: .75em;
+  }
+  #faq a {
+    font-weight: bold;
+  }
 
 #committees {
   padding-top: 20vh;
