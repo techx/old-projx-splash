@@ -76,22 +76,36 @@ nav.navbar.navbar-inverse {
   #main .glyphicon {
     font-size: 1.75em; }
 
-#who {
+#faq {
+  text-align: center;
   padding: 40vh 0; }
-  #who .content {
+  #faq .content {
     padding: 0 15vw;
     color: #f2f6f9;
     font-size: 1.25em; }
+  #faq .faq-item {
+    padding: 15px;
+  }
+  #faq .question {
+    text-align: left;
+    font-weight: bold;
+    color: #5083BF;
+    font-size: 1em;
+  }
+  #faq .answer {
+    text-align: left;
+    color: rgba(242, 246, 249, 0.25);
+    font-size: .75em;
+  }
 
-#what {
-  padding-top: 20vh; }
-  #what .line {
-    width: 100vw;
-    padding: 10px 0; }
-    #what .line a {
-      padding: 10px; }
-      #what .line a img.square {
-        height: 175px; }
+#explore {
+  text-align: center;
+  padding: 40vh 0; }
+  #explore .content {
+    padding: 0 15vw;
+    color: rgba(242, 246, 249, 0.25);
+    font-size: 1em;
+  }
 
 #committees {
   padding-top: 20vh;
