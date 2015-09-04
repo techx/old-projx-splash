@@ -56,7 +56,7 @@ nav.navbar.navbar-inverse {
 
 #main {
   text-align: center;
-  padding-top: 35vh; }
+  padding-top: 30vh; }
   #main .main-header {
     font-weight: 400;
     font-size: 10em;
@@ -76,12 +76,55 @@ nav.navbar.navbar-inverse {
   #main .glyphicon {
     font-size: 1.75em; }
 
-#who {
+#explore {
   padding: 40vh 0; }
-  #who .content {
-    padding: 0 15vw;
+  #explore .title {
+    margin-bottom: 10px;
+  }
+  #explore .section-subtitle {
+    color: #aaaaaa;
+    font-size: 1em;
+  }
+  #explore .image-bar {
+    width: 100%;
+    height: 400px;
+    padding: 15px 0px;
+    background: url("../images/led_light_table_resize.jpg") no-repeat;
+    overflow: hidden;
+    position: relative;
+    color: white;}
+    /*Should add in a linear fade in from the bottom*/
+    #explore .image-bar:before {
+      content: " ";
+      width: 100%;
+      height: 400px;
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      background: -moz-linear-gradient(top, rgba(0,0,0,0.2) 0%, rgba(29,29,29,0.2) 85%, rgba(29,29,29,1) 100%);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.2)), color-stop(85%,rgba(29,29,29,0.2)), color-stop(100%,rgba(29,29,29,1)));
+      background: -webkit-linear-gradient(top, rgba(0,0,0,0.2) 0%,rgba(29,29,29,0.2) 85%,rgba(29,29,29,1) 100%);
+      background: -o-linear-gradient(top, rgba(0,0,0,0.2) 0%,rgba(29,29,29,0.2) 85%,rgba(29,29,29,1) 100%);
+      background: -ms-linear-gradient(top, rgba(0,0,0,0.2) 0%,rgba(29,29,29,0.2) 85%,rgba(29,29,29,1) 100%);
+      background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(29,29,29,0.2) 85%,rgba(29,29,29,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#1d1d1d',GradientType=0 );}
+      #explore .image-bar h1 {
+        margin-top: 275px;
+      }
+      #explore .image-bar h3 {
+        margin-top: 0px;
+      }
+  #explore .content {
+    margin:auto;
+    padding: 10px 15vw;
     color: #f2f6f9;
-    font-size: 1.25em; }
+    font-size: 1.15em;
+    max-width: 1300px; }
+      #explore .content img {
+        padding: 20px 0px;
+        max-width:100%;
+      }
 
 #what {
   padding-top: 20vh; }
