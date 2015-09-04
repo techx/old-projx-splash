@@ -1,0 +1,68 @@
+<<!DOCTYPE HTML>
+  <html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ProjX MIT</title>
+    <link href="styles/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="style/font-awesome.min.css">
+    <link href="styles/style.css" rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,900' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a id="goto-explore">EXPLORE</a></li>
+            <li><a id="blue" href="https://docs.google.com/forms/d/15N6awLntfPmS7S88mA4SR1WlpZnzjXQesbmtb5G1kn4/viewform">APPLY</a></li>
+            <li><a id="goto-faq">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <section id="main">
+      <h1 class="main-header">Proj<span class="main-header-x">x</span></h1>
+      <div class="subtitle">Our slogan goes here</div>
+    </section>
+
+    <section id="explore">
+      <div class="sidebar col-md-3" style="background:red;">
+      </div>
+      <div class="title">
+        WHO WE ARE
+      </div>
+      <div class="content">
+        We are a student-run organization that aims to <b>empower</b> MIT students by bringing cutting-edge technology, new
+        ideas, and top tech-innovators to campus.
+      </div>
+    </section>
+  </body>
+
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+		});
+	});
+  </script>
+  <script type="application/x-javascript">
+    addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+  </script>
+
+  </html>
