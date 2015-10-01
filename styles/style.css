@@ -159,6 +159,27 @@ nav.navbar.navbar-inverse {
     font-weight: bold;
   }
 
+#terms {
+  text-align: center;
+  padding-top: 10vh;
+  padding-bottom: 20vh; }
+  #terms .content {
+    max-width: 1350px;
+    margin: auto;
+    padding: 0 15vw;
+    color: #f2f6f9;
+    font-size: 1.25em; }
+  #terms .term-item ul {
+    font-size: 0.75em;
+    text-align: left;
+    padding: 15px;
+    color: rgba(242, 246, 249, 0.6) }
+  #terms .term-heading {
+    font-size: 1em;
+    text-align: left;
+    font-weight: bold;
+    color: #5083BF; }
+    
 #committees {
   padding-top: 20vh;
   height: 105vh; }
