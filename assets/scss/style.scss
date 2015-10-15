@@ -82,9 +82,19 @@ nav.navbar.navbar-inverse {
         font-size: 1.75em;
     }
 
-    .application-link {
-        margin-top: 50px;
-        font-size: 3em;
+    .application-button {
+        font-size: 2em;
+        color: $light-grey;
+        background-color: $projx-green;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        padding: 10px 150px;
+        padding-top: 15px;
+    }
+
+    .application-info {
+
+        font-size: 1.25em;
     }
 }
 
@@ -194,5 +204,22 @@ nav.navbar.navbar-inverse {
         text-align: left;
         font-weight: bold;
         color: $projx-green;
+    }
+}
+
+footer {
+    padding-bottom: 30px;
+
+    .horizontal-spacer {
+        display: inline-block;
+        width: 10px;
+    }
+
+    .vertical-spacer {
+        height: 10px;
+    }
+
+    .techx {
+        width: 100px;
     }
 }

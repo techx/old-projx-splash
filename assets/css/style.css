@@ -56,9 +56,16 @@ nav.navbar.navbar-inverse {
     padding-top: 10px;
     color: #222222;
     font-size: 1.75em; }
-  #main .application-link {
-    margin-top: 50px;
-    font-size: 3em; }
+  #main .application-button {
+    font-size: 2em;
+    color: #ffffff;
+    background-color: #6ebe45;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px 150px;
+    padding-top: 15px; }
+  #main .application-info {
+    font-size: 1.25em; }
 
 #explore {
   padding-top: 10vh;
@@ -136,5 +143,15 @@ nav.navbar.navbar-inverse {
     text-align: left;
     font-weight: bold;
     color: #6ebe45; }
+
+footer {
+  padding-bottom: 30px; }
+  footer .horizontal-spacer {
+    display: inline-block;
+    width: 10px; }
+  footer .vertical-spacer {
+    height: 10px; }
+  footer .techx {
+    width: 100px; }
 
 /*# sourceMappingURL=style.css.map */
