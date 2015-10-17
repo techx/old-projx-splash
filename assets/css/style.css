@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
 @font-face {
   font-family: "Biko";
   src: url("../font/Biko_Regular.otf") format("opentype"); }
@@ -7,11 +8,14 @@ html, body {
   padding: 0;
   margin: 0;
   text-align: center;
-  font-family: "Biko";
+  font-family: "Open Sans";
   background: #ffffff;
   color: #222222; }
   html section, html div, body section, body div {
     position: relative; }
+
+.biko {
+  font-family: "Biko"; }
 
 a {
   color: #6ebe45;
@@ -25,6 +29,9 @@ a {
     transition: all 300ms;
     -ms-transition: all 300ms;
     -webkit-transition: all 300ms; }
+
+b {
+  font-weight: 600; }
 
 nav.navbar.navbar-inverse {
   background-color: #6ebe45;
@@ -51,7 +58,8 @@ nav.navbar.navbar-inverse {
   text-align: center;
   padding-top: 20vh; }
   #main .logo {
-    width: 50%; }
+    padding: 10px;
+    width: 40%; }
   #main .subtitle {
     padding-top: 10px;
     color: #222222;
@@ -62,7 +70,7 @@ nav.navbar.navbar-inverse {
     background-color: #6ebe45;
     margin-top: 30px;
     margin-bottom: 10px;
-    padding: 10px 150px;
+    padding: 10px 10vw;
     padding-top: 15px; }
   #main .application-info {
     font-size: 1.25em; }
@@ -90,18 +98,20 @@ nav.navbar.navbar-inverse {
     margin-top: 0px; }
   #explore .content {
     margin: auto;
-    padding: 10px 15vw;
+    padding: 5vh 15vw;
     color: #222222;
     font-size: 1.15em;
     max-width: 1300px; }
   #explore .content img {
-    padding: 20px 0px;
+    margin-top: 5vh;
     max-width: 100%; }
 
 #faq {
   text-align: center;
-  padding-top: 10vh;
+  padding-top: 5vh;
   padding-bottom: 20vh; }
+  #faq .title {
+    margin-bottom: 20px; }
   #faq .content {
     max-width: 1350px;
     margin: auto;
