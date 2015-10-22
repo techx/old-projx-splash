@@ -56,7 +56,7 @@ nav.navbar.navbar-inverse {
   height: 100vh;
   width: 100vw;
   text-align: center;
-  padding-top: 20vh; }
+  padding-top: 25vh; }
   #main .logo {
     padding: 10px;
     width: 40%; }
@@ -73,6 +73,7 @@ nav.navbar.navbar-inverse {
     padding: 10px 10vw;
     padding-top: 15px; }
   #main .application-info {
+    padding-top: 30px;
     font-size: 1.25em; }
 
 #explore {
@@ -163,5 +164,3 @@ footer {
     height: 10px; }
   footer .techx {
     width: 100px; }
-
-/*# sourceMappingURL=style.css.map */
